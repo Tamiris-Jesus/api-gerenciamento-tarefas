@@ -21,3 +21,14 @@ Antes de começar, você precisará ter os seguintes itens instalados:
 
 O banco de dados H2 está configurado para ser executado em memória, o que significa que os dados serão perdidos toda vez que a aplicação for parada. A configuração do H2 está definida no arquivo `application.properties`.
 
+### Testando a API com Swagger
+
+Para facilitar o teste e a documentação da API, a aplicação está configurada para utilizar o **Swagger**. Com o Swagger, você pode visualizar e interagir com todos os endpoints da API diretamente através de uma interface web, sem a necessidade de ferramentas externas como o Postman.
+
+Após iniciar a aplicação, você pode acessar a interface do Swagger no seguinte URL:
+
+http://localhost:8080/swagger-ui.html
+
+Na interface do Swagger, você encontrará todos os endpoints da API listados, podendo testar cada um deles diretamente, fornecendo os parâmetros necessários e visualizando as respostas.
+
+
